@@ -4,7 +4,7 @@ class CustomerManagement
   extend Langchain::ToolDefinition
 
   define_function :create_customer, description: "Customer Management Service: Create a new customer with a given name" do
-    property :name, type: "string", description: "Customer's name", required: true
+    property :name, type: "string", description: "Customer's nae", required: true
     property :email, type: "string", description: "Customer's email address", required: true
   end
 
