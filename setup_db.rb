@@ -9,7 +9,7 @@ DB = Sequel.sqlite(ENV["DATABASE_NAME"])
 DB.create_table :products do
   String :sku, primary_key: true
   Float :price
-  Integer :quantity //
+  Integer :quantity
 end
 
 DB.create_table :orders do
