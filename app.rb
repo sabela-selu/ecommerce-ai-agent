@@ -9,6 +9,6 @@ class App < Sinatra::Base
   use MainController
 
   get '/' do
-    erb :index //
+    erb :index
   end
 end
