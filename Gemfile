@@ -16,3 +16,4 @@ gem 'langchainrb', "0.19.0"
 gem 'sinatra', '~> 3.1.0'
 gem 'thin', '~> 1.8.2'
 gem 'rack', '~> 2.2'
+gem 'rack', '~> 2.2'
